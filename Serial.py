@@ -20,7 +20,7 @@ print port.xonxoff
 print 'is hw flow control?'
 print port.rtscts
 print port.dsrdtr
-
+#not success
 i =0	
 while True:
 	readbuff=port.read(10)
